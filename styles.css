@@ -181,23 +181,35 @@ button {
     justify-content: center;
   }
   
-  .flex-container-1 > div {
+.flex-container-1 > div {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-  }
+}
    
-  #second-section {
+/* second-section */
+
+#second-section {
     background-color: white;
     padding: 20px 250px;
 }
     
 
+#second-section h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: center;
+}
 
 
-
-
+#second-section p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    
+}
 
 
 
