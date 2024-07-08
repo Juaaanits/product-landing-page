@@ -128,10 +128,12 @@ h1 {
   }
 
  /*Third Section */
-.third-section {
+
+ /*
+.third-section-container {
     flex-direction: column;
     background-color: #E5E7EB;
-    /*height: 450px; */
+    /*height: 450px; 
     
 }
 
@@ -147,4 +149,34 @@ h1 {
     align-self: flex-end;
     margin-top: auto;
     padding: 0px 450px 0px 300px;
+}
+
+*/
+
+
+.third-section {
+    background-color: #E5E7EB;
+}
+
+.third-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.quote {
+    text-align: justify;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+    padding: 150px 450px;
+    
+}
+
+.author {
+    align-self: flex-end;
+      margin-top: auto;
+      padding: 150px 450px;
 }
