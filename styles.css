@@ -175,24 +175,38 @@ button {
    height: 100%;
  }
 
+ /*
+
+  second-section 
+
  .flex-container-1{
     display: flex;
-    background-color: DodgerBlue;
-    justify-content: center;
+    background-color: DodgerBlue; 
+    justify-content: center; 
+    flex-direction: row;
+    text-align: center;
+    
   }
+  
   
 .flex-container-1 > div {
     background-color: #f1f1f1;
     margin: 10px;
-    padding: 20px;
+    padding: 80px;
     font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+    outline-style: solid;
+    outline-color: #3882F6;;
 }
    
-/* second-section */
+
 
 #second-section {
     background-color: white;
-    padding: 20px 250px;
+    padding: 500px 500px 500px 500px;
+    
+   
 }
     
 
@@ -211,5 +225,50 @@ button {
     
 }
 
+.box {
+    height: 160px;
+    width: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+  }
+  
+
+  */
+h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 150px;
+    
+    
+}
 
 
+  .second-section {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 5px 150px;
+    
+    
+  }
+
+  .flex-container-1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    height: 200px;
+    width: 155px;
+  }
+
+  .box {
+    height: 100%;
+    width: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+  }
+
+ 
