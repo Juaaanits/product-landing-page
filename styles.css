@@ -153,16 +153,12 @@ h1 {
 
 */
 
-
 .third-section {
     background-color: #E5E7EB;
-}
-
-.third-section-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+    padding: 150px 450px;
 }
 
 .quote {
@@ -170,13 +166,12 @@ h1 {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
-    margin: 0;
-    padding: 150px 450px;
+    
     
 }
 
 .author {
     align-self: flex-end;
-      margin-top: auto;
-      padding: 150px 450px;
+    margin-top: auto;
+     
 }
